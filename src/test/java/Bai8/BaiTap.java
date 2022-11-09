@@ -8,7 +8,6 @@ import org.openqa.selenium.Keys;
 public class BaiTap extends BaseTest {
     public static void loginCRM(){
 
-//hhhhhh
         openURL("https://rise.fairsketch.com/signin");
         findElement("//input[@id='email']").clear();
         findElement("//input[@id='email']").sendKeys("admin@demo.com");
@@ -16,6 +15,7 @@ public class BaiTap extends BaseTest {
         findElement("//input[@id='password']").sendKeys("riseDemo");
         findElement("//button[normalize-space()='Sign in']").click();
     }
+//testing new branch
 
     public static void enterAddClient(String clientName) {
         findElement("//input[@id='company_name']").sendKeys(clientName);
