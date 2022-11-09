@@ -7,6 +7,8 @@ import org.openqa.selenium.Keys;
 
 public class BaiTap extends BaseTest {
     public static void loginCRM(){
+
+//hhhhhh
         openURL("https://rise.fairsketch.com/signin");
         findElement("//input[@id='email']").clear();
         findElement("//input[@id='email']").sendKeys("admin@demo.com");
