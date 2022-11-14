@@ -15,7 +15,6 @@ public class BaiTap extends BaseTest {
         findElement("//input[@id='password']").sendKeys("riseDemo");
         findElement("//button[normalize-space()='Sign in']").click();
     }
-    //test login
     public static void enterAddClient(String clientName) {
         findElement("//input[@id='company_name']").sendKeys(clientName);
         findElement("//div[@id='s2id_created_by']").click();
