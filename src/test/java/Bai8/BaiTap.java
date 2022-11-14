@@ -59,5 +59,7 @@ public class BaiTap extends BaseTest {
         searchClient("Test");
 
         closeBrowser();
+
+        //testing git update
     }
 }
